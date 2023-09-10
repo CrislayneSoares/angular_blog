@@ -12,6 +12,7 @@ export class ButtonImgComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() text = ''
+  @Input() text: string = ''
+  @Input() urlPhoto: string = ''
 
 }

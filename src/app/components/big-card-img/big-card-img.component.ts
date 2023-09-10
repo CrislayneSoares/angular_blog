@@ -13,6 +13,6 @@ export class BigCardImgComponent implements OnInit {
   }
 
   @Input() title: string = ''
-  @Input() text: string = ''
-  @Input() url: string = ''
+  @Input() textDescription: string = ''
+  @Input() urlPhoto: string = ''
 }

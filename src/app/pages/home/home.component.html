@@ -1,14 +1,14 @@
 <div class="container__home">
     <app-big-card-img 
         title="The most beautiful places in the world!" 
-        text="Plan your vocation on the most beautiful places in the world."
-        url="https://p1.pxfuel.com/preview/827/712/1020/mountains-alaska-landscape-wilderness.jpg"
+        textDescription="Plan your vocation on the most beautiful places in the world."
+        urlPhoto="https://p1.pxfuel.com/preview/827/712/1020/mountains-alaska-landscape-wilderness.jpg"
         >
     </app-big-card-img>
     <section class="container__section">
 
         <div class="container__menu-bar">
-            <app-menu-bar></app-menu-bar>
+            <app-menu-bar urlPhoto="https://pontodamulher.com.br/sites/default/files/2022-10/foto-de-perfil-tres-dicas-fundamentais-para-transmitir-imagem-que-deseja.jpg"></app-menu-bar>
         </div>
         
         <div class="container__menu-category">
@@ -16,16 +16,46 @@
         </div>
         
         <div class="container__small-card">
-            <app-small-card-img></app-small-card-img>
-            <app-small-card-img></app-small-card-img>
-            <app-small-card-img></app-small-card-img>
+            <app-small-card-img 
+                points="4.8"
+                title="Alaska"
+                description="Alguma coisa aqui"
+                urlPhoto="https://i.pinimg.com/736x/f8/b3/35/f8b3353ccb182fd63c16a085112bdce1.jpg"
+            >
+            </app-small-card-img>
+            <app-small-card-img
+                points="5.0"
+                title="Iceland"
+                description="Outra descrição aqui"
+                urlPhoto="https://static.wixstatic.com/media/df9fb8_b1510fc657d94cef9e05566a6f7a8167~mv2.jpg/v1/fill/w_1000,h_773,al_c,q_85,usm_0.66_1.00_0.01/df9fb8_b1510fc657d94cef9e05566a6f7a8167~mv2.jpg"></app-small-card-img>
+            <app-small-card-img
+                points="4.9"
+                title="Albuquerque"
+                description="Mais outra coisa"
+                urlPhoto="https://images.rove.me/w_1920,q_85/goma3vpttqvrhqyugjvi/mexico-festival-del-globo-international-balloon-festival.jpg"></app-small-card-img>
         </div>
         
         <h2>Types of Travel</h2>
         <div class="container__btns-img">
-            <app-button-img text="All"></app-button-img>
-            <app-button-img text="All"></app-button-img>
-            <app-button-img text="All"></app-button-img>
+            <app-button-img 
+                text="All"
+                urlPhoto="https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/2708.png"
+            ></app-button-img>
+
+            <app-button-img 
+                text="Solo"
+                urlPhoto="https://i.pinimg.com/474x/35/c4/58/35c458a849e8545a52d0b8b0d668cece.jpg"
+            ></app-button-img>
+
+            <app-button-img 
+                text="Luxury"
+                urlPhoto="https://images.emojiterra.com/google/android-12l/512px/1f31f.png"
+            ></app-button-img>
+
+            <app-button-img
+                text="Safary"
+                urlPhoto="https://images.emojiterra.com/google/android-marshmallow/128px/1f981.png"
+            ></app-button-img>
         </div>
 
     </section>
