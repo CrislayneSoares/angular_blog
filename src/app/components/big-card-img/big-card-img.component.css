@@ -1,0 +1,45 @@
+.container__big-card-img {
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    background-image: url('https://p1.pxfuel.com/preview/827/712/1020/mountains-alaska-landscape-wilderness.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+
+.title-text-btn {
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 0px 30px;
+}
+
+.container__big-card-img ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.container__big-card-img li {
+    margin: 5px 10px 5px 0px;
+}
+
+.container__nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: #C6C6D2;
+}

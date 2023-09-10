@@ -1,0 +1,33 @@
+.content__small-card {
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    background-image: url('https://i.pinimg.com/736x/f8/b3/35/f8b3353ccb182fd63c16a085112bdce1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+.div-points {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-points span {
+    background-color: #f6f6f7af;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    color: #C6C6D2;
+    border: 2px solid #f5f5f5;
+}

@@ -1,0 +1,23 @@
+.container__home {
+    display: flex;
+}
+
+.container__section {
+    margin: 16px;
+}
+
+.container__section h2 {
+    margin: 10px 0px;
+}
+
+.container__menu-category {
+    margin: 20px 0px;
+}
+
+.container__small-card {
+    display: flex;
+}
+
+.container__btns-img {
+    display: flex;
+}

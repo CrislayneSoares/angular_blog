@@ -1,0 +1,13 @@
+.content__menu-category h2{
+    color: #05073C;
+}
+
+.content__menu-category ul{
+    display: flex;
+    list-style: none;
+    color: #C6C6D2;
+}
+
+.content__menu-category li {
+    padding: 5px 15px 5px 0px;
+}
