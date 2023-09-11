@@ -10,6 +10,7 @@ export class SmallCardImgComponent implements OnInit {
   @Input() description: string = ''
   @Input() urlPhoto: string = ''
   @Input() points: string = ''
+  @Input() Id: string = '0'
   
   constructor() { }
 

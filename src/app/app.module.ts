@@ -10,6 +10,8 @@ import { SmallCardImgComponent } from './components/small-card-img/small-card-im
 import { ButtonComponent } from './components/button/button.component';
 import { ButtonImgComponent } from './components/button-img/button-img.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
+import { OfferCardComponent } from './components/offer-card/offer-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './pages/home/home.component';
     SmallCardImgComponent,
     ButtonComponent,
     ButtonImgComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent,
+    OfferCardComponent
   ],
   imports: [
     BrowserModule,

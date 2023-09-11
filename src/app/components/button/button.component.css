@@ -5,4 +5,10 @@ button {
     border: none;
     border-radius: 14px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fd7f51;
+    transition: ease-in 0.2s;
 }

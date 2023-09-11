@@ -1,9 +1,11 @@
 <div class="content__small-card" style="background-image: url('{{urlPhoto}}');">
-    <div class="div-points">
-        <span>{{points}}</span>
-    </div>
-    <div>
-        <h2>{{title}}</h2>
-        <p>{{description}}</p>
-    </div>
+    <a [routerLink]="['content', Id]">
+        <div class="div-points">
+            <span>{{points}}</span>
+        </div>
+        <div>
+            <h2>{{title}}</h2>
+            <p>{{description}}</p>
+        </div>
+    </a>
 </div>
